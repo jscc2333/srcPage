@@ -84,6 +84,11 @@ header #functionSearch input[type=submit]{
 
 /*导航栏开始*/
 #headerFoot nav{
+	border:2px solid #ADA0A0;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
 	width: 100%;
 	height: 40px;
 	background:rgba(43,130,233,0.7);
@@ -126,14 +131,17 @@ header #functionSearch input[type=submit]{
 	float: left;
 	margin-right: 2%;
 	/*text-align: center;*/
+	position: relative;
 }
 #direction ul li ul{
 	margin-top: 11%;
 	padding: 0;
-	width: 100%;
+	position: absolute;
+	/*width: 100%;*/
 
 }
 #direction ul li ul li{
+	z-index: 100;
 	height: 25px;
 	width: 100%;
 	/*text-align: left;*/
@@ -142,3 +150,73 @@ header #functionSearch input[type=submit]{
 }
 /*方向*/
 /*导航栏结束*/
+
+/*内容区开始*/
+
+/*侧边栏*/
+#content{
+	margin-top:2%;
+}
+#content #sidebar{
+	width: 15%;
+	border:1px solid #ADA0A0;;
+	float: left;
+}
+.hotTech h1{
+	width: 80%;
+	margin:0 auto;
+	background: #3F95DC;
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 楷体;
+	border-radius: 8px;
+}
+.hotTech ul li{
+	width: 70%;
+}
+.hotTech ul li .tag{
+	width: 16px;
+	height: 16px;
+	background: url("../images/point.png") no-repeat;
+	float: left;
+	/*position: absolute;*/
+	margin-top: 5px;
+}
+.hotTech ul li a{
+	margin-left: 10%;
+	color:#0000ff;
+	font-size: 16px;
+}
+.hotTech ul li a:hover{
+	text-decoration: none;
+}
+.banner{
+	border:1px solid black;
+	width: 78%;
+	height: 200px;
+	float: left;
+	margin-left:5%;
+	position:relative;
+	overflow: hidden;
+}
+.banner img{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+}
+img.banner1{background: #F45D5D;left:-25%;top:0;}
+img.banner2{background: #665050;left:25%;top:0;}
+img.banner3{background: #270D0D;left:75%;top:0;}
+img.banner4{background: #3C8917;left:125%;top:0;}
+img.banner5{background: #1538EC;left:175%;top:0;}
+img.banner6{background: #FF0052;left:225%;top:0;}
+
+/*侧边栏*/
+
+/*横幅*/
+
+/*横幅*/
+
+/*内容区结束*/
