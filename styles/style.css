@@ -1,0 +1,144 @@
+body{
+	width: 85%;
+	margin:0 auto;
+	min-width: 1245px;
+}
+
+/*logo及功能区开始*/
+
+/*logo*/
+header #logo,#academy,#function{
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	position: relative;
+}
+header #headerTop{
+	height: 100px;
+}
+header #logo{
+	width: 27.68%;
+	margin-right: 1%;
+}
+header #academy{
+	width: 37.68%;
+	font-size: 28px;
+	font-family:楷体,宋体;
+	color:#5059BA;
+}
+header #academy h1{
+	margin-top:8%;
+}
+/*logo*/
+
+/*功能区*/
+header #functionList,#functionSearch{
+	width: 60%;
+	height: 50%;
+	position: absolute;
+}
+header #functionList{
+	right:0;
+	top:0;
+}
+header #functionSearch{
+	right:0;
+	top:60%;
+}
+header #function ul{
+	/*color:#0000ff;*/
+	/*padding-left: 3.5%;*/
+	padding-left: 0;
+}
+header #functionList ul li{
+	/*list-style-type: disc;*/
+	font-size: 16px;
+	float: left;
+	margin:3% 10% 0 0;
+	display: inline-block;
+}
+header #functionList li a{
+	color:#0000ff;
+	font-family: 微软雅黑;
+}
+header #functionList li a:hover{
+	text-decoration: none;
+	color:#000000;
+}
+/*功能区*/
+
+/*搜索栏*/
+header #functionSearch input[type=text]{
+	width: 70%;
+}
+header #functionSearch input[type=submit]{
+	background: #44cef6;
+	-o-border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	color:#ffffff;
+}
+/*搜索栏*/
+/*logo及功能区结束*/
+
+/*导航栏开始*/
+#headerFoot nav{
+	width: 100%;
+	height: 40px;
+	background:rgba(43,130,233,0.7);
+}
+#headerFoot nav a{
+	color:#110707;
+}
+#headerFoot nav a:hover{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+/*服务*/
+#service{
+	width: 30%;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	float: left;
+}
+#service ul{
+	margin:3% 0;
+}
+#service ul li{
+	float: left;
+	margin:0 1% 0 0;
+}
+#service ul li:first-child{
+	padding-right: 1.5%;
+	border-right: 1px solid #ADA0A0;
+}
+/*服务*/
+
+/*方向*/
+#direction{
+	width: 70%;
+	float: left;
+}
+#direction ul li{
+	width: 10.5%;
+	float: left;
+	margin-right: 2%;
+	/*text-align: center;*/
+}
+#direction ul li ul{
+	margin-top: 11%;
+	padding: 0;
+	width: 100%;
+
+}
+#direction ul li ul li{
+	height: 25px;
+	width: 100%;
+	/*text-align: left;*/
+	display: none;
+	background: rgba(43,130,233,0.4);
+}
+/*方向*/
+/*导航栏结束*/
