@@ -8,3 +8,31 @@ $(function(){
 	});
 });
 // 下拉菜单结束
+
+// banner滚动效果开始
+$(function(){
+	var time = null;
+	var img = $(".banner img");
+	img.hover(function(){
+		if(time){
+			clearInterval(time);
+		}
+	},function(){
+		time = setInterval(function(){
+			for(var i = 0; i < img.length;i++ ){
+				// console.log(img.eq(i).position().left);
+				
+				// 获取并修改当前图片的位置
+				var left = img.eq(i).position().left;
+				img.eq(i).css("left",left-500+"px");
+				
+				// 当图片消失，就将图片放到最后一张
+				if(left < -300){
+					img.eq(i).css("left",2294+"px");
+				}
+			}
+		},3000);
+	}).eq(0).mouseleave();//触发第一张图的鼠标离开事件
+
+});
+// banner滚动效果结束
