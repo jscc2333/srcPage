@@ -307,8 +307,8 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 }
 /*区域1和2*/
 
-/*区域3和4*/
-.sec3 .career,.sec4 .career,.sec5 .career{
+/*区域3-8*/
+.career{
 	width: 14.8%;
 	margin:0 2% 0 40px;
 	border-radius: 8px;
@@ -320,8 +320,11 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 }
 .sec3 .career{background: url("../images/career1_bg.jpg");}
 .sec4 .career{background: url("../images/career3_bg.jpg");}
-.sec5 .career{background: url("../images/career2_bg.jpg");]}
-.sec3 .career span,.sec4 .career span,.sec5 .career span{
+.sec5 .career{background: url("../images/career2_bg.jpg");}
+.sec6 .career{background: url("../images/career4_bg.jpg");}
+.sec7 .career{background: url("../images/career5_bg.jpg");}
+.sec8 .career{background: url("../images/career6_bg.jpg");}
+.career span{
 
 	margin:16px 0 4px 0;
 	float: left;
@@ -330,7 +333,7 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	background: url("../images/career_logo.png");
 	/*margin-left:40px;*/
 }
-.sec3 .career h3,.sec4 .career h3,.sec5 .career h3{
+.career h3{
 	line-height: 32px;
 	width: 70.285%;
 	font-size: 16px;
@@ -340,13 +343,13 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	margin-bottom: 4px;
 	/*padding-left: 32px;*/
 }
-.sec3 .career p,.sec4 .career p,.sec5 .career p{
+.career p{
 	clear:both;
 	width: 91%;
 	margin:0 auto;
 	font-family: 微软雅黑;
 }
-.sec3 .career p.main,.sec4 .career p.main,.sec5 .career p.main{
+.career p.main{
 	margin-top:0;
 	font-size: 19px;
 	/*height: 60px;*/
@@ -357,10 +360,15 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	font-size:13px;
 	height: 150px;
 }
-.sec4 .career p.detail{
+.sec4 .career p.detail,.sec7 .career p.detail,.sec8 .career p.detail{
 	margin-top: 30px;
 	font-size:13px;
 	height: 90px;
+}
+.sec6 .career p.detail{
+	margin-top: 30px;
+	font-size: 13px;
+	height:60px;
 }
 .sec3 .career p.sub,.sec5 .career p.sub{
 	height: 68px;
@@ -373,7 +381,7 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	color:#ffffff;
 	z-index: 100;
 }
-.sec3 .course,.sec4 .course,.sec5 .course{
+.course{
 	float: left;
 	width: 72.7%;
 	/*border:1px solid black;*/
@@ -392,16 +400,16 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 .sec3 .course ul:first-child li:last-child{background: url("../images/wechatApp_bg.jpg");}
 .sec5 .course ul:first-child li:first-child{background: url("../images/androidApp1_bg.jpg");margin-right: 3%;}
 .sec5 .course ul:first-child li:last-child{background: url("../images/androidApp2_bg.jpg");}
-.sec3 .course ul:last-child li,.sec4 .course ul:last-child li,.sec5 .course ul:last-child li{
+.course ul:last-child li{
 	margin-top:30px;
 	width: 22.75%;
 	float: left;
 }
-.sec4 .course ul:last-child li{
+.sec4 .course ul:last-child li,.sec6 .course ul:last-child li,.sec7 .course ul:last-child li,.sec8 .course ul:last-child li{
 	margin-top:0;
 }
-.sec3 .course ul:last-child li:not(:last-child),.sec4 .course ul:last-child li:not(:last-child),.sec5 .course ul:last-child li:not(:last-child){margin-right: 3%}
-.sec3 .course ul:last-child li>a,.sec4 .course ul:last-child li>a,.sec5 .course ul:last-child li>a{
+.course ul:last-child li:not(:last-child){margin-right: 3%}
+.course ul:last-child li>a{
 	border-radius: 5px 5px 0 0;
 	height: 30px;
 	display: block;
@@ -411,7 +419,7 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	font-size: 18px;
 	color:#ffffff;
 }
-.sec3 .course ul:last-child li p,.sec4 .course ul:last-child li p,.sec5 .course ul:last-child li p{
+.course ul:last-child li p{
 	width: 80%;
 	margin:8px auto 18px;
 }
@@ -427,6 +435,134 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 .course a.php2{background: url("../images/php2_bg.jpg");}
 .course a.php3{background: url("../images/php3_bg.jpg");}
 .course a.php4{background: url("../images/php4_bg.jpg");}
+.course a.ios1{background: url("../images/ios1_bg.jpg");}
+.course a.ios2{background: url("../images/ios2_bg.jpg");}
+.course a.ios3{background: url("../images/ios3_bg.jpg");}
+.course a.ios4{background: url("../images/ios4_bg.jpg");}
+.course a.java1{background: url("../images/java1_bg.jpg");}
+.course a.java2{background: url("../images/java2_bg.jpg");}
+.course a.java3{background: url("../images/java3_bg.jpg");}
+.course a.java4{background: url("../images/java4_bg.jpg");}
+.course a.python1{background: url("../images/python1_bg.jpg");}
+.course a.python2{background: url("../images/python2_bg.jpg");}
+.course a.python3{background: url("../images/python3_bg.jpg");}
+.course a.python4{background: url("../images/python4_bg.jpg");}
+
 /*技术区域*/
 
+/*建议区域*/
+.recommand div{
+	width: 48.5%;
+	float: left;
+	margin-top:30px;	
+}
+.recommand .notes{
+	margin-right: 2%;
+}
+.recommand h2{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 微软雅黑;
+	margin-bottom: 25px;
+}
+.recommand>div>a{
+	margin-left:6.319%;
+	height: 60px;
+	width: 87.3%;
+	border-radius: 8px 8px 0 0;
+	display: block;
+	color:white;
+	font-weight: bold;
+	/*text-align: center;*/
+	font-size: 20px;
+	/*line-height: 30px;*/
+	padding:40px 0 0 40px;
+}
+.notes>a{background: url("../images/note_bg.jpg");}
+.question>a{background: url("../images/question_bg.jpg");}
+
+.recommand ul{
+	height: 220px;
+	border:1px solid #EFE7E7;
+	padding:16px 0 0 0 ;
+	margin:0 0 0 40px;
+	background: #fff;
+	border-bottom: none;
+}
+.recommand ul li{
+	margin-bottom:16px;
+	padding-left: 40px;
+}
+.recommand ul li a{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color:#000000;
+}
+.recommand i{
+	margin:0 10px;
+	font-weight: bold;
+}
+.recommand li a:first-child{
+	border:1px solid #F0E0E0;
+	border-radius:15px;
+	width: 10%;
+	/*margin-right: 10px;*/
+	padding:5px 10px;
+}
+.recommand div div{
+	border:1px solid #efe7e7;
+	border-top:none;
+	border-radius:0 0 8px 8px;
+	margin:0 0 0 40px;
+	width: 93.3%;
+	text-align: right;
+}
+.recommand div div a{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color:#C0BEBE;
+	display: inline-block;
+	margin:5px 0 12px 0;
+}
+/*建议区域*/
+
 /*内容区结束*/
+
+/*尾部开始*/
+footer{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+}
+footer .follow{
+	/*text-align: center;*/
+	padding: 20px 0 0 43%;
+}
+footer .follow a{
+	width: 32px;
+	height: 32px;
+	margin: 0 11px;
+	display: inline-block;
+	opacity: 0.5;
+}
+footer .contact{
+	padding: 25px 0 25px 37.2%;
+	margin:0 auto;
+	/*text-align: center;*/
+	border-bottom: 1px solid #d0d6d9;
+}
+footer .contact a{
+	font-size: 13px;
+	color:#ACACAC;
+	margin:0 10px;
+}
+footer .copyright{
+	padding-top: 20px;
+	text-align: center;
+	color:#acacac;
+}
+footer .follow a.microblog{background: url("../images/microblog.png")}
+footer .follow a.wechat{background: url("../images/wechat.png")}
+footer .follow a.twitter{background: url("../images/twitter.png")}
+footer .follow a.facebook{background: url("../images/facebook.png")}
+/*尾部结束*/
