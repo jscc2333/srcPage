@@ -238,52 +238,15 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 }
 #main .section{
 	width: 100%;
+	margin-bottom: 40px;
 }
+
+/*通用*/
 .section h2{
 	font-size: 16px;
 	font-weight: normal;
-}
-.section li{
-	width: 17.5%;
-	float: left;
-	margin-right: 2%;
-	/*background: #7A8EDE;*/
-	border:1px solid #EBE6E6;
-	border-radius: 10px 10px 0 0;
-}
-.section li>a{
-	border-radius: 10px 10px 0 0;
-	height: 30px;
-	display: block;
-	width: 100%;
-	text-align: center;
-	background: #30BFD9;
-	font-size: 18px;
-	color:#ffffff;
-}
-.section a.phython{
-	background: url("../images/phython_bg.jpg");
-}
-.section a.php{
-	background: url("../images/PHP_bg.png");
-}
-.section a.vue{
-	background: url("../images/vuejs_bg.jpg")
-}
-.section a.c{
-	background: url("../images/c++_bg.jpg");
-}
-.section a.mysql{
-	background: url("../images/mysql_bg.jpeg");
-}
-.section li div{
-	width: 100%;
-	height: 120px;
-	background:#FBFBFB;
-}
-.section ul li p{
-	width: 80%;
-	margin:15px auto 0;
+	font-family: 微软雅黑;
+	margin-bottom: 25px;
 }
 .section p:first-child a{
 	font-size: 14px;
@@ -297,6 +260,173 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	text-decoration: none;
 	/*color:#000000;*/
 }
+
+.clear{
+	clear:both;
+}
+/*通用*/
+
+/*区域1和2*/
+.sec1 li,.sec2 li{
+	width: 17.5%;
+	float: left;
+	margin-right: 2%;
+	/*background: #7A8EDE;*/
+	border:1px solid #EBE6E6;
+	border-radius: 10px 10px 0 0;
+}
+.sec1 li>a,.sec2 li>a{
+	border-radius: 10px 10px 0 0;
+	height: 30px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: #30BFD9;
+	font-size: 18px;
+	color:#ffffff;
+}
+.sec1 a.phython{background: url("../images/phython_bg.jpg");}
+.sec1 a.php{background: url("../images/PHP_bg.png");}
+.sec1 a.vue{background: url("../images/vuejs_bg.jpg")}
+.sec1 a.c{background: url("../images/c++_bg.jpg");}
+.sec1 a.mysql{background: url("../images/mysql_bg.jpeg");}
+.sec2 a.htmlcss{background: url("../images/html_bg.jpg");}
+.sec2 a.js{background: url("../images/js_bg.png");}
+.sec2 a.java{background: url("../images/java_bg.jpg");}
+.sec2 a.reactjs{background: url("../images/react_bg.jpg");}
+.sec2 a.android{background: url("../images/android_bg.jpg");}
+.section li div{
+	width: 100%;
+	height: 182px;
+	background:#FBFBFB;
+	padding-top: 15px;
+}
+.sec1 ul li p,.sec2 ul li p{
+	width: 80%;
+	margin:8px auto 18px;
+}
+/*区域1和2*/
+
+/*区域3和4*/
+.sec3 .career,.sec4 .career,.sec5 .career{
+	width: 14.8%;
+	margin:0 2% 0 40px;
+	border-radius: 8px;
+	text-align: left;
+	color:#ffffff;
+	cursor: pointer;
+	padding: 0 10px 0 15px;
+	float: left;
+}
+.sec3 .career{background: url("../images/career1_bg.jpg");}
+.sec4 .career{background: url("../images/career3_bg.jpg");}
+.sec5 .career{background: url("../images/career2_bg.jpg");]}
+.sec3 .career span,.sec4 .career span,.sec5 .career span{
+
+	margin:16px 0 4px 0;
+	float: left;
+	width: 32px;
+	height: 32px;
+	background: url("../images/career_logo.png");
+	/*margin-left:40px;*/
+}
+.sec3 .career h3,.sec4 .career h3,.sec5 .career h3{
+	line-height: 32px;
+	width: 70.285%;
+	font-size: 16px;
+	/*color:#ffffff;*/
+	/*text-align: left;*/
+	float: left;
+	margin-bottom: 4px;
+	/*padding-left: 32px;*/
+}
+.sec3 .career p,.sec4 .career p,.sec5 .career p{
+	clear:both;
+	width: 91%;
+	margin:0 auto;
+	font-family: 微软雅黑;
+}
+.sec3 .career p.main,.sec4 .career p.main,.sec5 .career p.main{
+	margin-top:0;
+	font-size: 19px;
+	/*height: 60px;*/
+	/*color:black;*/
+}
+.sec3 .career p.detail,.sec5 .career p.detail{
+	margin-top: 30px;
+	font-size:13px;
+	height: 150px;
+}
+.sec4 .career p.detail{
+	margin-top: 30px;
+	font-size:13px;
+	height: 90px;
+}
+.sec3 .career p.sub,.sec5 .career p.sub{
+	height: 68px;
+	border-top:1px solid #EFEAEA;
+}
+.sec3 .career p.sub a,.sec5 .career p.sub a{
+	font-size: 12px;
+	margin-top: 18px;
+	display: block;
+	color:#ffffff;
+	z-index: 100;
+}
+.sec3 .course,.sec4 .course,.sec5 .course{
+	float: left;
+	width: 72.7%;
+	/*border:1px solid black;*/
+}
+.course ul{
+	margin-top: 0;
+	padding-left: 0;
+}
+.sec3 .course ul:first-child li,.sec5 .course ul:first-child li{
+	border-radius:5px;
+	float: left;
+	width:48.5%;
+	height: 100px;
+}
+.sec3 .course ul:first-child li:first-child{background: url("../images/angular_bg.jpg");margin-right:3%;}
+.sec3 .course ul:first-child li:last-child{background: url("../images/wechatApp_bg.jpg");}
+.sec5 .course ul:first-child li:first-child{background: url("../images/androidApp1_bg.jpg");margin-right: 3%;}
+.sec5 .course ul:first-child li:last-child{background: url("../images/androidApp2_bg.jpg");}
+.sec3 .course ul:last-child li,.sec4 .course ul:last-child li,.sec5 .course ul:last-child li{
+	margin-top:30px;
+	width: 22.75%;
+	float: left;
+}
+.sec4 .course ul:last-child li{
+	margin-top:0;
+}
+.sec3 .course ul:last-child li:not(:last-child),.sec4 .course ul:last-child li:not(:last-child),.sec5 .course ul:last-child li:not(:last-child){margin-right: 3%}
+.sec3 .course ul:last-child li>a,.sec4 .course ul:last-child li>a,.sec5 .course ul:last-child li>a{
+	border-radius: 5px 5px 0 0;
+	height: 30px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	/*background: #30BFD9;*/
+	font-size: 18px;
+	color:#ffffff;
+}
+.sec3 .course ul:last-child li p,.sec4 .course ul:last-child li p,.sec5 .course ul:last-child li p{
+	width: 80%;
+	margin:8px auto 18px;
+}
+.course a.javascript1{background: url("../images/javascript1_bg.jpg");}
+.course a.javascript2{background: url("../images/javascript2_bg.jpg");}
+.course a.jquery{background: url("../images/jquery_bg.jpg");}
+.course a.javascriptcss{background: url("../images/javascriptcss_bg.jpg");}
+.course a.android1{background:url("../images/android1_bg.jpg");}
+.course a.android2{background:url("../images/android2_bg.jpg");}
+.course a.android3{background:url("../images/android3_bg.jpg");}
+.course a.android4{background:url("../images/android4_bg.jpg");}
+.course a.php1{background: url("../images/php1_bg.jpg");}
+.course a.php2{background: url("../images/php2_bg.jpg");}
+.course a.php3{background: url("../images/php3_bg.jpg");}
+.course a.php4{background: url("../images/php4_bg.jpg");}
 /*技术区域*/
 
 /*内容区结束*/
