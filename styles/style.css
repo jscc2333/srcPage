@@ -127,6 +127,7 @@ header #functionSearch input[type=submit]{
 	float: left;
 }
 #direction ul li{
+	height: 40px;
 	width: 10.5%;
 	float: left;
 	margin-right: 2%;
@@ -570,3 +571,4 @@ footer .follow a.wechat{background: url("../images/wechat.png")}
 footer .follow a.twitter{background: url("../images/twitter.png")}
 footer .follow a.facebook{background: url("../images/facebook.png")}
 /*尾部结束*/
+

@@ -4,15 +4,17 @@
 	<meta charset="utf-8">
 	<title>主页</title>
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">'
+	<link rel="stylesheet" type="text/css" href="styles/regist.css">
 	<script type="text/javascript" src="scripts/jquery.js"></script>
 	<script type="text/javascript" src="scripts/home.js"></script>
+	<script type="text/javascript" src="scripts/submit&login.js"></script>
 </head>
 <body>
 
 <!-- logo区域以及导航栏制作开始 -->
-	<header>
 	
+	<header>	
 	<!-- logo及右侧功能区开始 -->
 		<div id="headerTop">
 			<!-- logo开始 -->
@@ -28,15 +30,15 @@
 				<div id="functionList">
 					<ul>
 						<li><a href="homePage.html">首页</a></li>
-						<li><a href="">登陆</a></li>
-						<li><a href="">注册</a></li>
-						<li><a href="">联系</a></li>
+						<li><a href="" id="login">登陆</a></li>
+						<li><a href="" id="regist">注册</a></li>
+						<li><a href="contact.html" id="contact" target="_blank">联系</a></li>
 					</ul>
 				</div>
 				<div id="functionSearch">
 					<form>
 						<input type="text" name="search" id="search" placeholder="IOS开发">
-						<input type="submit" name="submit" id="submit" value="search">
+						<input type="submit" name="submitSearch" id="submitSearch" value="search">
 					</form>
 				</div>
 			</div>
@@ -589,5 +591,26 @@
 			<div class="copyright">© 2017 CC.com  京ICP备 13023642号-2</div>
 		</div>
 	</footer>
+	<form id="registForm">
+		<ul>
+			<li><label for="email">邮箱：</label><input type="email" name="email" class="email" required="required"></li>
+			<li><label for="password">密码：</label><input type="password" name="password" class="password" required="required"></li>
+			<li><label for="checkPassword">确认密码：</label><input type="password" name="checkPassword" class="checkPassword" required="required"> </li>
+			<li>
+				<input type="submit" name="submitReg" class="submitReg" value="注册">
+				<input type="button" name="cancel"  value="取消" class="cancel">
+			</li>
+		</ul>
+	</form>
+	<form id="loginForm">
+		<ul>
+			<li><label for="email">邮箱：</label><input type="email" name="email" class="email" required="required"></li>
+			<li><label for="password">密码：</label><input type="password" name="password" class="password" required="required"></li>
+			<li>
+				<input type="submit" name="submitLog" class="submitLog" value="登录">
+				<input type="button" name="cancel"  value="取消" class="cancel">
+			</li>
+		</ul>
+	</form>
 </body>
 </html>

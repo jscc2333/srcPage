@@ -53,3 +53,5 @@ function showDescription(img){
 	img.siblings(".description").show();
 }
 // banner滚动效果结束
+
+

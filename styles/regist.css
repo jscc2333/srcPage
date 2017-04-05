@@ -1,0 +1,27 @@
+#registForm,#loginForm{
+	display: none;
+	background:rgba(238,238,238,1);
+	position: fixed;
+	width: 300px;
+	z-index: 100;
+}
+#registForm ul,#loginForm ul{
+	padding: 0;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+#registForm ul li,#loginForm ul li{
+	margin:10px auto;
+}
+#registForm ul li label,#loginForm ul li label{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+}
+#registForm ul li:last-child,#loginForm ul li:last-child{
+	width: 50%;
+	margin:0 16% 0 34%;
+}
+form ul li .cancel{
+	margin-left: 37%;
+}
