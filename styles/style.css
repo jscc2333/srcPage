@@ -397,10 +397,10 @@ img.banner6{background: #FF0052;left:225%;top:0;}
 	width:48.5%;
 	height: 100px;
 }
-.sec3 .course ul:first-child li:first-child{background: url("../images/angular_bg.jpg");margin-right:3%;}
-.sec3 .course ul:first-child li:last-child{background: url("../images/wechatApp_bg.jpg");}
-.sec5 .course ul:first-child li:first-child{background: url("../images/androidApp1_bg.jpg");margin-right: 3%;}
-.sec5 .course ul:first-child li:last-child{background: url("../images/androidApp2_bg.jpg");}
+.sec3 .course ul:first-child li:first-child a{width: 100%;height: 100%;display:block;background: url("../images/angular_bg.jpg");margin-right:3%;}
+.sec3 .course ul:first-child li:last-child a{width: 100%;height: 100%;display:block;background: url("../images/wechatApp_bg.jpg");}
+.sec5 .course ul:first-child li:first-child a{width: 100%;height: 100%;display:block;background: url("../images/androidApp1_bg.jpg");margin-right: 3%;}
+.sec5 .course ul:first-child li:last-child a{width: 100%;height: 100%;display:block;background: url("../images/androidApp2_bg.jpg");}
 .course ul:last-child li{
 	margin-top:30px;
 	width: 22.75%;

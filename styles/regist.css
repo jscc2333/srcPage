@@ -11,6 +11,7 @@
 	font-family: 微软雅黑;
 }
 #registForm ul li,#loginForm ul li{
+	height: 50px;
 	margin:10px auto;
 }
 #registForm ul li label,#loginForm ul li label{
@@ -19,9 +20,30 @@
 	text-align: right;
 }
 #registForm ul li:last-child,#loginForm ul li:last-child{
+	height: 22px;
 	width: 50%;
 	margin:0 16% 0 34%;
 }
 form ul li .cancel{
 	margin-left: 37%;
+}
+#mask{
+	position: absolute;
+	top: 0;
+	left:0;
+	filter:alpha(opacity=60);
+	background: #777;
+	z-index: 50;
+	opacity: 0.5;
+	display: none;
+}
+#registForm .pwAlert{
+	font-size: 12px;
+	font-family: 微软雅黑;
+	width: 100%;
+	text-align: center;
+	margin-top:0;
+}
+#registForm .pwWrong{
+	background:rgba(212,83,83,0.3);
 }
